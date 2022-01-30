@@ -1,0 +1,57 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.carousel-inner {
+  height: 90vh !important;
+}
+.carousel-caption {
+  text-shadow: 1px 2px 2px black;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: #7912f7 !important;
+}
+.carousel-inner img {
+  height: 90vh !important;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #7912f7 !important;
+}
+.carousel-caption {
+  bottom: 15.25rem !important;
+}
+.myfooter {
+  padding: 10px;
+}
+
+.myaboutpageContent {
+  border-radius: 6px;
+  padding: 1.25rem !important;
+  box-shadow: 0 0.5em 1em -0.125em rgb(0 0 0 / 10%), 0 0 0 1px rgb(0 0 0 / 2%);
+  background-color: #fff !important;
+  margin-top: -25em !important;
+  margin-bottom: 100px !important;
+  line-height: 2;
+}
+
+main.myfaqs {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 1px 2px 8px black;
+  padding: 20px !important;
+}
